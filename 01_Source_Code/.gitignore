@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller & Installer Build Artifacts
+build/
+dist/
+installer_output/
+bin/
+obj/
+build_log.txt
+*.exe
+
+# Python Virtual Environments
+venv310/
+venv/
+.venv/
+env/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+
+# Sensitive Configuration (Use db_config.example.json instead)
+db_config.json
+
+# Local Generated Reports & Scratch Files
+qc_reports/
+
+# Legacy Backup Scripts
+old.py

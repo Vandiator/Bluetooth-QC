@@ -1,0 +1,39 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.coverage
+*.coverage
+
+# PyInstaller & Build Artifacts
+build/
+dist/
+installer_output/
+*.spec.bak
+*.exe
+*.log
+build_log.txt
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+venv310/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive Configuration (Keep db_config.example.json only)
+**/db_config.json
+db_config.json
+
+# Local reports & temp data
+**/qc_reports/
+qc_reports/
+old.py
+**/old.py

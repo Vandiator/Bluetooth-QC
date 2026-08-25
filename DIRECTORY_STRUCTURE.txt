@@ -1,0 +1,100 @@
+========================================================================
+STUDDS QC DESKTOP APPLICATION - DIRECTORY ARCHITECTURE & ECOSYSTEM
+========================================================================
+
+📁 Project Root/
+│
+├── 📁 Requirements_&_Design/
+│   │   # Complete documentation covering software specs, architecture, SOPs, and optimizations
+│   ├── 01_Software_Requirements_Specification.md    # Functional & non-functional requirements, testing criteria, user roles
+│   ├── 02_System_Architecture_&_Design.md           # High-level architecture, module interaction, DB schema, threading model
+│   ├── 03_User_Manual_&_SOP.md                      # Standard operating procedure, step-by-step QC line inspection guide
+│   ├── 04_Environment_&_Deployment_Guide.md         # 3-tier environment setup, build pipeline, Inno Setup installer instructions
+│   └── bluetooth_mic_detection_optimization_report.md# Root-cause analysis and performance optimizations for mic detection
+│
+├── 📁 01_Source_Code/
+│   │   # Primary Active Development Environment (Connected to Local/Dev MySQL DB)
+│   ├── desktop_app.py                               # PyWebView launcher, Edge Chromium bridge, health check, Win32 error dialogs
+│   ├── qc_bluetooth_api.py                          # FastAPI backend engine (port 8765): BLE/Classic scanning, QC orchestration, DB API
+│   ├── Bluetooth_testing.py                         # Dual BLE & Classic Windows Bluetooth discovery driver (Bleak + WinSDK)
+│   ├── button_detector.py                           # Hardware button detection engine (PyCaw CoreAudio level polling + Win32 hook)
+│   ├── mic_test.py                                  # Offline Vosk speech-to-text transcription engine & Windows HFP profile activator
+│   ├── speaker_test.py                              # WinMM MCI audio engine for non-blocking stereo L/R channel separation testing
+│   ├── studds_qc_inspection.html                    # Responsive HTML5/Bootstrap 5 dashboard UI with real-time testing overlays
+│   ├── db_config.json                               # MySQL connection parameters (Host, Port, User, Password, DB Name)
+│   ├── db_config.example.json                       # Example database configuration template
+│   ├── icon - file.ico                              # Desktop application icon asset
+│   ├── Stereo sound tiny test with clean channels (mp3cut.net).mp3 # Reference stereo audio asset for speaker channel test
+│   ├── vosk-model/                                  # Bundled offline Vosk English speech-to-text neural network model
+│   ├── StuddsQC.spec                                # PyInstaller build specification file
+│   ├── build.bat                                    # Automated build script generating dist\StuddsQC.exe via PyInstaller
+│   ├── studds_installer.iss                         # Inno Setup script creating zero-admin installer for factory workstations
+│   ├── dist/                                        # Generated PyInstaller standalone executable directory
+│   ├── build/                                       # PyInstaller temporary compilation artifacts
+│   └── installer_output/                            # Output folder containing StuddsQC_Setup_v1.0_NoAdmin.exe
+│
+├── 📁 02_UAT/
+│   │   # User Acceptance Testing Environment (Connected to Staging/UAT MySQL DB)
+│   │   # Contains identical codebase promoted from 01_Source_Code with dedicated UAT db_config.json
+│   ├── desktop_app.py
+│   ├── qc_bluetooth_api.py
+│   ├── Bluetooth_testing.py
+│   ├── button_detector.py
+│   ├── mic_test.py
+│   ├── speaker_test.py
+│   ├── studds_qc_inspection.html
+│   ├── db_config.json                               # Points to UAT Staging Database
+│   ├── db_config.example.json
+│   ├── icon - file.ico
+│   ├── Stereo sound tiny test with clean channels (mp3cut.net).mp3
+│   ├── vosk-model/
+│   ├── StuddsQC.spec
+│   ├── build.bat
+│   ├── studds_installer.iss
+│   ├── Requirements_&_Design/                       # Synchronized specs and documentation for UAT validation
+│   ├── dist/
+│   ├── build/
+│   └── installer_output/
+│
+└── 📁 03_Production/
+    │   # Production Deployment Environment (Connected to Live Production MySQL DB)
+    │   # Receives verified and approved releases promoted from 02_UAT
+    ├── db_config.json                               # Points to Live Central Production Database
+    └── (Promoted release packages, binaries, installers, and verified code)
+
+========================================================================
+ENVIRONMENT LIFECYCLE & RELEASE PROMOTION PIPELINE
+========================================================================
+
+1. Tier 1 - Development (`01_Source_Code/`):
+   - All active code changes, new feature additions, and bug fixes occur here.
+   - Connected to the local or development database via `01_Source_Code/db_config.json`.
+   - Verified via local execution: `python desktop_app.py` or `build.bat`.
+
+2. Tier 2 - User Acceptance Testing (`02_UAT/`):
+   - Code verified in `01_Source_Code/` is promoted to `02_UAT/`.
+   - Connected to the staging database via `02_UAT/db_config.json`.
+   - QC supervisors and plant technicians test the build on test helmets and workstations.
+   - Any bugs identified during UAT are resolved, re-tested, and back-ported to `01_Source_Code/`.
+
+3. Tier 3 - Live Production (`03_Production/`):
+   - Once the UAT testing phase is fully signed off, the release is promoted to `03_Production/`.
+   - `build.bat` and `studds_installer.iss` generate the final production installer.
+   - CRITICAL: Never overwrite `03_Production/db_config.json` during file synchronization.
+
+========================================================================
+COMPILATION & PACKAGING INSTRUCTIONS
+========================================================================
+
+Step 1: Build the Standalone Executable
+- Navigate to the active environment folder (`01_Source_Code` or `02_UAT`):
+    cd 01_Source_Code
+    build.bat
+- This bundles Python, PyWebView, FastAPI, offline Vosk STT model, audio assets,
+  and dependencies into `dist\StuddsQC.exe`.
+
+Step 2: Build the No-Admin Setup Installer
+- Open `studds_installer.iss` in Inno Setup Compiler.
+- Click 'Compile' (or run `ISCC.exe studds_installer.iss`).
+- Output installer is saved to `installer_output\StuddsQC_Setup_v1.0_NoAdmin.exe`.
+- Distribute `StuddsQC_Setup_v1.0_NoAdmin.exe` to factory workstations (requires zero admin rights).

@@ -1,0 +1,7 @@
+{
+  "host": "your-mysql-host.aivencloud.com",
+  "port": 27999,
+  "user": "vnqc",
+  "password": "YOUR_DATABASE_PASSWORD_HERE",
+  "database": "studds_qc"
+}
