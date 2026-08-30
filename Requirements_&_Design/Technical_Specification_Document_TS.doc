@@ -1,0 +1,2964 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List
+href="Technical_Specification_Document_TS_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="Technical_Specification_Document_TS_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Technical Specification Document (TS) - Studds QC</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Vineet Vishwakarma</o:Author>
+  <o:LastAuthor>Vineet Vishwakarma</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>6</o:TotalTime>
+  <o:Created>2026-08-26T05:20:00Z</o:Created>
+  <o:LastSaved>2026-08-26T07:51:00Z</o:LastSaved>
+  <o:Pages>11</o:Pages>
+  <o:Words>1845</o:Words>
+  <o:Characters>10517</o:Characters>
+  <o:Lines>87</o:Lines>
+  <o:Paragraphs>24</o:Paragraphs>
+  <o:CharactersWithSpaces>12338</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData
+href="Technical_Specification_Document_TS_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="Technical_Specification_Document_TS_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+  </w:Compatibility>
+  <w:DoNotOptimizeForBrowser/>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--.HEADER-BOX
+	{border-radius: 4px;}
+.ALERT-BOX
+	{border-radius: 4px;}
+.RECIPE-BOX
+	{border-radius: 4px;}
+tr:nth-child(even) td {
+    background-color: #f9fafb;
+}
+code
+	{border-radius: 3px;}
+pre
+	{border-radius: 4px;
+	overflow-x: auto;}
+.BADGE-PASS
+	{border-radius: 3px;}
+.BADGE-FAIL
+	{border-radius: 3px;}
+
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:"Segoe UI Emoji";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:3 33554432 0 0 1 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073683329 9 0 511 0;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-536869121 64767 1 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	border:none;
+	mso-border-bottom-alt:solid #0B3D91 1.5pt;
+	padding:0in;
+	mso-padding-alt:0in 0in 5.0pt 0in;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#0B3D91;
+	font-weight:bold;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	margin-top:.25in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	border:none;
+	mso-border-bottom-alt:solid #E5E7EB .75pt;
+	padding:0in;
+	mso-padding-alt:0in 0in 3.0pt 0in;
+	font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#1A56DB;
+	font-weight:bold;}
+h3
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 3 Char";
+	margin-top:14.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#2B3A4A;
+	font-weight:bold;}
+h4
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 4 Char";
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#374151;
+	font-weight:bold;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+code
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-ansi-font-size:9.5pt;
+	mso-bidi-font-size:9.5pt;
+	font-family:Consolas;
+	mso-ascii-font-family:Consolas;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Consolas;
+	mso-bidi-font-family:"Courier New";
+	color:#B91C1C;
+	background:#F3F4F6;}
+pre
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"HTML Preformatted Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	background:#1E293B;
+	font-size:9.0pt;
+	font-family:Consolas;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Courier New";
+	color:#F8FAFC;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	font-family:"Aptos Display",sans-serif;
+	mso-ascii-font-family:"Aptos Display";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Aptos Display";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Aptos Display",sans-serif;
+	mso-ascii-font-family:"Aptos Display";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Aptos Display";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 4";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-style:italic;}
+span.HTMLPreformattedChar
+	{mso-style-name:"HTML Preformatted Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"HTML Preformatted";
+	font-family:Consolas;
+	mso-ascii-font-family:Consolas;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Consolas;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.header-box, li.header-box, div.header-box
+	{mso-style-name:header-box;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	margin-bottom:.25in;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	background:#F0F5FF;
+	border:none;
+	mso-border-alt:solid #C3DAFE .75pt;
+	mso-border-left-alt:solid #1A56DB 4.5pt;
+	padding:0in;
+	mso-padding-alt:12.0pt 12.0pt 12.0pt 12.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.alert-box, li.alert-box, div.alert-box
+	{mso-style-name:alert-box;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	background:#FEFCE8;
+	border:none;
+	mso-border-alt:solid #FEF08A .75pt;
+	mso-border-left-alt:solid #EAB308 4.5pt;
+	padding:0in;
+	mso-padding-alt:10.0pt 10.0pt 10.0pt 10.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.recipe-box, li.recipe-box, div.recipe-box
+	{mso-style-name:recipe-box;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	margin-top:14.0pt;
+	margin-right:0in;
+	margin-bottom:14.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	background:#F0FDF4;
+	border:none;
+	mso-border-alt:solid #BBF7D0 .75pt;
+	mso-border-left-alt:solid #16A34A 4.5pt;
+	padding:0in;
+	mso-padding-alt:12.0pt 12.0pt 12.0pt 12.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.badge-pass, li.badge-pass, div.badge-pass
+	{mso-style-name:badge-pass;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	background:#DCFCE7;
+	border:none;
+	mso-border-alt:solid #86EFAC .75pt;
+	padding:0in;
+	mso-padding-alt:2.0pt 5.0pt 2.0pt 5.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#15803D;
+	font-weight:bold;}
+p.badge-fail, li.badge-fail, div.badge-fail
+	{mso-style-name:badge-fail;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	background:#FEE2E2;
+	border:none;
+	mso-border-alt:solid #FCA5A5 .75pt;
+	padding:0in;
+	mso-padding-alt:2.0pt 5.0pt 2.0pt 5.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#B91C1C;
+	font-weight:bold;}
+span.badge-pass1
+	{mso-style-name:badge-pass1;
+	mso-style-unhide:no;
+	color:#15803D;
+	border:solid #86EFAC 1.0pt;
+	mso-border-alt:solid #86EFAC .75pt;
+	padding:2.0pt;
+	background:#DCFCE7;
+	font-weight:bold;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-font-kerning:0pt;
+	mso-ligatures:none;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:15618650;
+	mso-list-template-ids:-78581042;}
+@list l0:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:615647054;
+	mso-list-template-ids:-981445450;}
+@list l1:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:947855997;
+	mso-list-template-ids:-1843998568;}
+@list l2:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:2022857511;
+	mso-list-template-ids:1824798630;}
+@list l3:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+</style>
+<![endif]-->
+<meta charset=utf-8>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US style='tab-interval:.5in;word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<div style='margin-bottom:.25in'>
+
+<h1 style='margin-top:0in;background:#F0F5FF;border:none;mso-padding-alt:0in 0in 0in 0in'><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>Studds
+QC Bluetooth Device Inspection Application<o:p></o:p></span></h1>
+
+<h3 style='margin-top:4.0pt;background:#F0F5FF'><span style='font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#1E40AF'>Technical
+Specification Document (TS) â€” Detailed Line-by-Line Guide<o:p></o:p></span></h3>
+
+<p style='margin-bottom:0in;background:#F0F5FF'><strong><span style='font-size:
+11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Document ID:</span></strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>
+STUDDS-QC-TS-DETAILED-V1.0 &nbsp;|&nbsp; <strong><span style='font-family:"Segoe UI",sans-serif'>Date:</span></strong>
+2026-08-26 &nbsp;|&nbsp; <strong><span style='font-family:"Segoe UI",sans-serif'>Target
+Platform:</span></strong> Windows 10 / 11 (64-bit)<o:p></o:p></span></p>
+
+<p style='margin-bottom:0in;background:#F0F5FF'><strong><span style='font-size:
+11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Author:</span></strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>
+Studds Software Engineering &amp; QA Architecture Team &nbsp;|&nbsp; <strong><span
+style='font-family:"Segoe UI",sans-serif'>Status:</span></strong> Approved
+&amp; Production Baseline<o:p></o:p></span></p>
+
+</div>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #E5E7EB 1.0pt;
+mso-border-bottom-alt:solid #E5E7EB .75pt;padding:0in 0in 3.0pt 0in'>
+
+<h2><span style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>1. System Architecture in Simple Terms<o:p></o:p></span></h2>
+
+</div>
+
+<p><span style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Think
+of the application like a restaurant with 3 main parts:<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid #D1D5DB .75pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="30%" style='width:30.0%;border:solid #D1D5DB 1.0pt;mso-border-alt:
+  solid #D1D5DB .75pt;background:#0B3D91;padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>Component<o:p></o:p></span></b></p>
+  </td>
+  <td width="30%" style='width:30.0%;border:solid #D1D5DB 1.0pt;border-left:
+  none;mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  background:#0B3D91;padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>Technical Name<o:p></o:p></span></b></p>
+  </td>
+  <td style='border:solid #D1D5DB 1.0pt;border-left:none;mso-border-left-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;background:#0B3D91;
+  padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>Plain English Purpose
+  &amp; What It Does<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>1.
+  The Frontend UI</span></strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'><br>
+  <em><span style='font-family:"Segoe UI",sans-serif'>(The Dining Room)</span></em><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>studds_qc_inspection.html</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><br>
+  (PyWebView Edge Chromium)<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>What the inspector
+  sees on screen (buttons, progress bars, volume meters, pass/fail badges).
+  Runs in a smooth native desktop window.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>2.
+  The Backend Engine</span></strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'><br>
+  <em><span style='font-family:"Segoe UI",sans-serif'>(The Kitchen &amp; Chef)</span></em><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>qc_bluetooth_api.py</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><br>
+  (FastAPI on Port 8765)<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Takes commands from
+  the screen, controls the computer's Bluetooth radio, plays speaker sound
+  files, listens to the microphone, and checks physical buttons.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>3.
+  The Central Database</span></strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'><br>
+  <em><span style='font-family:"Segoe UI",sans-serif'>(The Filing Cabinet)</span></em><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>MySQL / MariaDB
+  Server<br>
+  (Table: </span><code><span style='font-size:9.5pt'>inspection_logs</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'>)<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Stores records of
+  every single helmet tested: Operator ID, Serial Number, MAC Address, Date,
+  Time, and PASS/FAIL verdict.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #E5E7EB 1.0pt;
+mso-border-bottom-alt:solid #E5E7EB .75pt;padding:0in 0in 3.0pt 0in'>
+
+<h2><span style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>2. Project File Map &amp; What Each File Does<o:p></o:p></span></h2>
+
+</div>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid #D1D5DB .75pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="25%" style='width:25.0%;border:solid #D1D5DB 1.0pt;mso-border-alt:
+  solid #D1D5DB .75pt;background:#0B3D91;padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>File Name<o:p></o:p></span></b></p>
+  </td>
+  <td width="35%" style='width:35.0%;border:solid #D1D5DB 1.0pt;border-left:
+  none;mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  background:#0B3D91;padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>Plain English Purpose<o:p></o:p></span></b></p>
+  </td>
+  <td width="40%" style='width:40.0%;border:solid #D1D5DB 1.0pt;border-left:
+  none;mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  background:#0B3D91;padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>If you want to
+  change...<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>desktop_app.py</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>The
+  Ignition Key:</span></strong><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'> Starts the backend
+  server and opens the Windows desktop window.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Window dimensions
+  (width/height), title, or startup health checks.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>db_config.json</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>The
+  Database Notebook:</span></strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>
+  Holds the MySQL connection settings.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Database IP address,
+  username, password, or database name.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>speaker_test.py</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>The
+  Audio Player:</span></strong><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'> Plays left and
+  right audio cues into the helmet speakers.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Playback speed, audio
+  file path, or sound controls.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>mic_test.py</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>The
+  Digital Ear:</span></strong><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'> Listens to what the
+  operator says into the helmet microphone completely offline.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Accepted voice test
+  phrases (e.g., <em><span style='font-family:"Segoe UI",sans-serif'>&quot;hello
+  studds&quot;</span></em>).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>button_detector.py</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>The
+  Button Watcher:</span></strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>
+  Detects when Volume Up, Volume Down, or Play buttons are pressed.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Volume detection
+  sensitivity or key codes.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>Bluetooth_testing.py</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>The
+  Radio Controller:</span></strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>
+  Searches for nearby Bluetooth helmets and pairs with them.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Scan timeout or
+  Bluetooth discovery filters.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>qc_bluetooth_api.py</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>The
+  Master Orchestrator:</span></strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>
+  Connects the screen to the hardware and MySQL database.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Test logic, API
+  endpoints, or database columns.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>studds_qc_inspection.html</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>The
+  Visual Screen:</span></strong><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'> Contains all HTML,
+  CSS styling, and JavaScript logic.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Colors, layout, text
+  labels, or screen logo.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>StuddsQC.spec</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>The
+  Packaging Recipe:</span></strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>
+  Tells PyInstaller how to bundle everything into a single </span><code><span
+  style='font-size:9.5pt'>.exe</span></code><span style='font-size:10.0pt;
+  font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:#24292E'> file.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Files bundled into
+  the compiled application.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>build.bat</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>The
+  1-Click Build Script:</span></strong><span style='font-size:10.0pt;
+  font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:#24292E'> Double-click to compile all code into an executable.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Nothing needed; just
+  double-click to compile!<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>studds_installer.iss</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>The
+  Setup Installer Script:</span></strong><span style='font-size:10.0pt;
+  font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:#24292E'> Compiles the user-friendly setup wizard.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Installer icon,
+  destination folder, or version number.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #E5E7EB 1.0pt;
+mso-border-bottom-alt:solid #E5E7EB .75pt;padding:0in 0in 3.0pt 0in'>
+
+<h2><span style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>3. Line-by-Line Code Breakdown &amp; Customization Guide<o:p></o:p></span></h2>
+
+</div>
+
+<h3><span style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>3.1 </span><code><span style='font-size:9.5pt'>desktop_app.py</span></code><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>
+(The Application Launcher)<o:p></o:p></span></h3>
+
+<p><span style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>This
+is the first file that runs when the user double-clicks the application.<o:p></o:p></span></p>
+
+<pre><span style='font-size:9.5pt'># Lines 1-8: Importing required tools<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>import osÂ Â Â Â Â Â Â Â Â Â Â Â<span style='mso-spacerun:yes'>  </span># Works with computer files and folders<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>import sysÂ Â Â Â Â Â Â Â Â Â Â<span style='mso-spacerun:yes'>  </span># Accesses Python runtime settings and command line<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>import threadingÂ Â Â Â Â<span style='mso-spacerun:yes'>  </span># Allows running multiple tasks at the exact same time<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>import timeÂ Â Â Â Â Â Â Â Â Â<span style='mso-spacerun:yes'>  </span># Handles delays, timestamps, and timeouts<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>import tracebackÂ Â Â Â Â<span style='mso-spacerun:yes'>  </span># Captures full error messages if something crashes<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>import urllib.request # Performs internal health check calls to the local server<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>import webviewÂ Â Â Â Â Â Â<span style='mso-spacerun:yes'>  </span># Creates the native Microsoft Edge desktop window<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>import uvicornÂ Â Â Â Â Â Â<span style='mso-spacerun:yes'>  </span># The fast web server engine that runs our backend API</span></pre>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Explanation:</span></strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'> These
+standard libraries give Python the power to interact with the Windows OS, run
+parallel tasks, and draw a window.<o:p></o:p></span></p>
+
+<pre><span style='font-size:9.5pt'># Line 14: Granting automatic microphone permissions<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>os.environ[&quot;WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS&quot;] = &quot;--use-fake-ui-for-media-stream --enable-media-stream&quot;</span></pre>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Explanation:</span></strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'> When
+a browser accesses a microphone, it usually pops up an annoying <em><span
+style='font-family:"Segoe UI",sans-serif'>&quot;Do you want to allow this app
+to use your microphone?&quot;</span></em> prompt. This line tells the Edge
+Chromium engine: <em><span style='font-family:"Segoe UI",sans-serif'>&quot;Always
+auto-allow the helmet microphone without asking the operator every time.&quot;</span></em><o:p></o:p></span></p>
+
+<pre><span style='font-size:9.5pt'># Lines 69-76: Starting the Backend Web Engine<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>def start_backend_server():<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>uvicorn.run(app, host=&quot;127.0.0.1&quot;, port=8765, log_level=&quot;error&quot;)</span></pre>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Explanation:</span></strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>
+Starts the local API server on </span><code><span style='font-size:9.5pt'>127.0.0.1</span></code><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'> (your
+local PC) on port </span><code><span style='font-size:9.5pt'>8765</span></code><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>.<o:p></o:p></span></p>
+
+<pre><span style='font-size:9.5pt'># Lines 137-144: Opening the Desktop Window<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>window = webview.create_window(<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>title=&quot;Studds QC Testing Dashboard&quot;,<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>url=&quot;http://127.0.0.1:8765/&quot;,<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>width=1100,<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>height=800,<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>resizable=True,<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>js_api=desktop_api<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>)<o:p></o:p></span></pre><pre><span style='font-size:
+9.5pt'>webview.start()</span></pre>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Explanation:</span></strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'> Opens
+an 1100x800 pixel desktop window titled <em><span style='font-family:"Segoe UI",sans-serif'>&quot;Studds
+QC Testing Dashboard&quot;</span></em> showing our inspection screen.<o:p></o:p></span></p>
+
+<div class=MsoNormal align=center style='text-align:center;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#24292E'>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<h3 style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>3.2
+</span><code><span style='font-size:9.5pt'>db_config.json</span></code><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>
+(Database Settings File)<o:p></o:p></span></h3>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>This
+file sits directly beside the application executable. You can open and edit it
+in <strong><span style='font-family:"Segoe UI",sans-serif'>Notepad</span></strong>
+without writing any code.<o:p></o:p></span></p>
+
+<pre><span style='font-size:9.5pt'>{<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>&quot;host&quot;: &quot;localhost&quot;,<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>&quot;port&quot;: 3306,<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>&quot;user&quot;: &quot;root&quot;,<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>&quot;password&quot;: &quot;&quot;,<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>&quot;database&quot;: &quot;studds_qc&quot;,<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>&quot;connection_timeout&quot;: 8<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>}</span></pre>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid #D1D5DB .75pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='border:solid #D1D5DB 1.0pt;mso-border-alt:solid #D1D5DB .75pt;
+  background:#0B3D91;padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>Key<o:p></o:p></span></b></p>
+  </td>
+  <td style='border:solid #D1D5DB 1.0pt;border-left:none;mso-border-left-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;background:#0B3D91;
+  padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>Default Value<o:p></o:p></span></b></p>
+  </td>
+  <td style='border:solid #D1D5DB 1.0pt;border-left:none;mso-border-left-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;background:#0B3D91;
+  padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>Plain English Meaning<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>&quot;host&quot;</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>&quot;localhost&quot;</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>The IP address of
+  the MySQL server. Use </span><code><span style='font-size:9.5pt'>&quot;localhost&quot;</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'> if on the same PC, or an IP like </span><code><span
+  style='font-size:9.5pt'>&quot;192.168.1.100&quot;</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'> for a central factory server.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>&quot;port&quot;</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>3306</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>The standard MySQL
+  networking port.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>&quot;user&quot;</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>&quot;root&quot;</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>The database
+  username.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>&quot;password&quot;</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>&quot;&quot;</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>The database login
+  password.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>&quot;database&quot;</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>&quot;studds_qc&quot;</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>The database table
+  catalog name.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>&quot;connection_timeout&quot;</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>8</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Seconds to wait
+  before warning if the database server is offline.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<div class=MsoNormal align=center style='text-align:center;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#24292E'>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<h3 style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>3.3
+</span><code><span style='font-size:9.5pt'>speaker_test.py</span></code><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>
+(Stereo Speaker Player)<o:p></o:p></span></h3>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Uses
+Windows native Multimedia commands (</span><code><span style='font-size:9.5pt'>winmm.dll</span></code><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>) to
+play stereo sound cues without opening any external media player.<o:p></o:p></span></p>
+
+<pre><span style='font-size:9.5pt'># Lines 22-31: Short-Path Converter<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>def get_short_path_name(long_name: str) -&gt; str:<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â <span style='mso-spacerun:yes'> </span>...<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>res = kernel32.GetShortPathNameW(long_name, buf, 260)</span></pre>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Explanation:</span></strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>
+Windows sometimes fails to play audio if folder names have spaces (like </span><code><span
+style='font-size:9.5pt'>C:\Program Files\Studds</span></code><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>).
+This converts paths to 8.3 short format (</span><code><span style='font-size:
+9.5pt'>C:\PROGRA~1\Studds</span></code><span style='font-size:11.0pt;
+font-family:"Segoe UI",sans-serif;color:#24292E'>) so playback never fails.<o:p></o:p></span></p>
+
+<pre><span style='font-size:9.5pt'># Lines 123-135: Playing the Stereo Audio<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>def start_speaker_test(mp3_path: str) -&gt; Dict[str, Any]:<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>...<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>_mci_send(f'open &quot;{short_path}&quot; type mpegvideo alias speaker_mp3')<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>_mci_send(&quot;play speaker_mp3&quot;)</span></pre>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Explanation:</span></strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'> Opens
+the MP3 audio file and starts playback. The audio plays sound strictly in the <strong><span
+style='font-family:"Segoe UI",sans-serif'>Left Channel</span></strong> first,
+pauses, and then plays strictly in the <strong><span style='font-family:"Segoe UI",sans-serif'>Right
+Channel</span></strong>.<o:p></o:p></span></p>
+
+<div class=MsoNormal align=center style='text-align:center;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#24292E'>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<h3 style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>3.4
+</span><code><span style='font-size:9.5pt'>mic_test.py</span></code><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>
+(Offline Speech Recognition Engine)<o:p></o:p></span></h3>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Uses
+the <strong><span style='font-family:"Segoe UI",sans-serif'>Vosk Offline Neural
+Speech Model</span></strong> to transcribe what the operator says into the
+microphone without needing any internet connection.<o:p></o:p></span></p>
+
+<pre><span style='font-size:9.5pt'># Lines 94-96: Loading the Neural Speech Model<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>VOSK_MODEL_PATH = os.path.join(get_bundle_dir(), &quot;vosk-model&quot;)<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>speech_model = vosk.Model(VOSK_MODEL_PATH)</span></pre>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Explanation:</span></strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'> Loads
+the offline acoustic speech dictionary from the </span><code><span
+style='font-size:9.5pt'>vosk-model</span></code><span style='font-size:11.0pt;
+font-family:"Segoe UI",sans-serif;color:#24292E'> folder into memory.<o:p></o:p></span></p>
+
+<pre><span style='font-size:9.5pt'># Lines 146-153: Checking for Target Voice Words<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>target_phrases = [&quot;hello studds&quot;, &quot;studds&quot;, &quot;testing&quot;, &quot;hello&quot;]<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>passed = any(phrase in transcript for phrase in target_phrases)<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'><o:p>&nbsp;</o:p></span></pre><pre><span
+style='font-size:9.5pt'>return {<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>&quot;status&quot;: &quot;PASS&quot; if passed else &quot;FAIL&quot;,<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>&quot;transcript&quot;: transcript<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>}</span></pre>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Explanation:</span></strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'> When
+the operator speaks into the helmet mic, Vosk transcribes the audio. If the
+operator says <em><span style='font-family:"Segoe UI",sans-serif'>&quot;hello
+studds&quot;</span></em>, <em><span style='font-family:"Segoe UI",sans-serif'>&quot;studds&quot;</span></em>,
+<em><span style='font-family:"Segoe UI",sans-serif'>&quot;testing&quot;</span></em>,
+or <em><span style='font-family:"Segoe UI",sans-serif'>&quot;hello&quot;</span></em>,
+the test automatically </span><span class=badge-pass1><span style='font-size:
+11.0pt;font-family:"Segoe UI",sans-serif'>PASSES</span></span><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>.<o:p></o:p></span></p>
+
+<div class=MsoNormal align=center style='text-align:center;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#24292E'>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<h3 style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>3.5
+</span><code><span style='font-size:9.5pt'>button_detector.py</span></code><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>
+(Physical Button Sensor)<o:p></o:p></span></h3>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Listens
+for physical button presses on the helmet headset: Volume Up, Volume Down, and
+Play/Pause.<o:p></o:p></span></p>
+
+<pre><span style='font-size:9.5pt'># Lines 64-66: Key Code Definitions<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>VK_VOLUME_DOWN = 0xAEÂ Â Â Â Â Â Â<span style='mso-spacerun:yes'>  </span># Hardware key code for Volume Down<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>VK_VOLUME_UP = 0xAFÂ Â Â Â Â Â Â Â Â<span style='mso-spacerun:yes'>  </span># Hardware key code for Volume Up<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>VK_MEDIA_PLAY_PAUSE = 0xB3Â Â<span style='mso-spacerun:yes'>  </span># Hardware key code for Play/Pause</span></pre><pre><span
+style='font-size:9.5pt'># Lines 203-214: Volume Change Detection<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>current_volume = volume_ctrl.GetMasterVolumeLevelScalar()<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>if diff &gt; 0.005:<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>button_state[&quot;volume_up&quot;] = True<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>print(&quot;Volume Up detected&quot;)<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>elif diff &lt; -0.005:<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>button_state[&quot;volume_down&quot;] = True<o:p></o:p></span></pre><pre><span
+style='font-size:9.5pt'>Â Â Â<span style='mso-spacerun:yes'>  </span>print(&quot;Volume Down detected&quot;)</span></pre>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Explanation:</span></strong><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>
+Measures the volume level in real time. If the operator presses Volume (+), the
+volume level rises and turns on the green <strong><span style='font-family:
+"Segoe UI",sans-serif'>Volume Up</span></strong> badge on screen. If they press
+Volume (-), it turns on the green <strong><span style='font-family:"Segoe UI",sans-serif'>Volume
+Down</span></strong> badge.<o:p></o:p></span></p>
+
+<div class=MsoNormal align=center style='text-align:center;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#24292E'>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<h3 style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>3.6
+</span><code><span style='font-size:9.5pt'>qc_bluetooth_api.py</span></code><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>
+(Backend API &amp; Database Router)<o:p></o:p></span></h3>
+
+<p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;color:#24292E'>Provides
+all web endpoints that connect the user interface to the hardware and database.<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid #D1D5DB .75pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='border:solid #D1D5DB 1.0pt;mso-border-alt:solid #D1D5DB .75pt;
+  background:#0B3D91;padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>Endpoint<o:p></o:p></span></b></p>
+  </td>
+  <td style='border:solid #D1D5DB 1.0pt;border-left:none;mso-border-left-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;background:#0B3D91;
+  padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>Method<o:p></o:p></span></b></p>
+  </td>
+  <td style='border:solid #D1D5DB 1.0pt;border-left:none;mso-border-left-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;background:#0B3D91;
+  padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>What It Does (Plain
+  English)<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>/health</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>GET</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Quickly replies </span><code><span
+  style='font-size:9.5pt'>{&quot;status&quot;: &quot;healthy&quot;}</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'> so the launcher knows the backend is ready.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>/scan</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>GET</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Starts Bluetooth
+  scanning and returns a list of nearby helmets with signal strength (RSSI).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>/test/{address}</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>POST</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Automatically pairs
+  with the selected helmet and checks audio/mic profiles.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>/analyze_mic</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>POST</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Receives recorded
+  audio from the mic, runs speech recognition, and returns the transcript.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>/speaker_test/start</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>POST</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Starts playing the
+  Left/Right stereo audio file into the helmet.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>/button_test/status</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>GET</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Returns whether Volume
+  Up, Down, or Play buttons were pressed (true/false).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>/check_duplicate/{mac}</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>GET</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Queries MySQL to
+  check if this helmet was already tested today.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>/save_report</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>POST</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Saves the complete
+  inspection record (Operator ID, Serial Number, MAC, PASS/FAIL) to MySQL.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>/reports</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>GET</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Fetches past
+  inspection logs for the table at the bottom of the screen.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #E5E7EB 1.0pt;
+mso-border-bottom-alt:solid #E5E7EB .75pt;padding:0in 0in 3.0pt 0in'>
+
+<h2 style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>4.
+Step-by-Step Recipes: How to Change Common Settings<o:p></o:p></span></h2>
+
+</div>
+
+<div style='border:solid #BBF7D0 1.0pt;border-left:solid #16A34A 4.5pt;
+mso-border-alt:solid #BBF7D0 .75pt;mso-border-left-alt:solid #16A34A 4.5pt;
+padding:12.0pt 12.0pt 12.0pt 12.0pt;margin-top:14.0pt;margin-bottom:14.0pt'>
+
+<h3 style='margin-top:0in;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:#F0FDF4'><span style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#15803D'>Recipe 1: How to Change the Database IP /
+Password<o:p></o:p></span></h3>
+
+<ol start=1 type=1>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l1 level1 lfo1;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Open the folder where the app is installed.<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l1 level1 lfo1;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Locate the file </span><code><span style='font-size:
+     9.5pt'>db_config.json</span></code><span style='font-size:11.0pt;
+     font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>.<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l1 level1 lfo1;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Right-click it and select <strong><span
+     style='font-family:"Segoe UI",sans-serif'>Open with â†’ Notepad</span></strong>.<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l1 level1 lfo1;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Change the </span><code><span style='font-size:9.5pt'>&quot;host&quot;</span></code><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'> and </span><code><span style='font-size:9.5pt'>&quot;password&quot;</span></code><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'> values: <o:p></o:p></span></li>
+</ol>
+
+<pre style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo1'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:9.5pt'>{<o:p></o:p></span></pre><pre style='margin-left:.5in;
+text-indent:-.25in;mso-list:l1 level1 lfo1'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:9.5pt'>Â Â Â Â &quot;host&quot;: &quot;192.168.1.50&quot;,<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo1'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:9.5pt'>Â Â Â Â &quot;port&quot;: 3306,<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo1'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:9.5pt'>Â Â Â Â &quot;user&quot;: &quot;qc_user&quot;,<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo1'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:9.5pt'>Â Â Â Â &quot;password&quot;: &quot;NewSecurePassword2026&quot;,<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo1'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>10.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+style='font-size:9.5pt'>Â Â Â Â &quot;database&quot;: &quot;studds_qc&quot;,<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo1'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>11.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+style='font-size:9.5pt'>Â Â Â Â &quot;connection_timeout&quot;: 8<o:p></o:p></span></pre><pre
+style='margin-left:.5in'><span style='font-size:9.5pt'>}</span></pre>
+
+<ol start=12 type=1>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l1 level1 lfo1;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Click <strong><span style='font-family:"Segoe UI",sans-serif'>File
+     â†’ Save</span></strong> and restart the application. That's it!<o:p></o:p></span></li>
+</ol>
+
+</div>
+
+<div style='border:solid #BBF7D0 1.0pt;border-left:solid #16A34A 4.5pt;
+mso-border-alt:solid #BBF7D0 .75pt;mso-border-left-alt:solid #16A34A 4.5pt;
+padding:12.0pt 12.0pt 12.0pt 12.0pt;margin-top:14.0pt;margin-bottom:14.0pt'>
+
+<h3 style='margin-top:0in;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:#F0FDF4'><span style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#15803D'>Recipe 2: How to Change the Voice Words the
+Helmet Listens For<o:p></o:p></span></h3>
+
+<ol start=1 type=1>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l0 level1 lfo2;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Open </span><code><span style='font-size:9.5pt'>01_Source_Code\mic_test.py</span></code><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'> in Notepad or VS Code.<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l0 level1 lfo2;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Go to <strong><span style='font-family:"Segoe UI",sans-serif'>Line
+     147</span></strong>.<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l0 level1 lfo2;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Find this line: <o:p></o:p></span></li>
+</ol>
+
+<pre style='margin-left:.5in'><span style='font-size:9.5pt'>target_phrases = [&quot;hello studds&quot;, &quot;studds&quot;, &quot;testing&quot;, &quot;hello&quot;]</span></pre>
+
+<ol start=4 type=1>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l0 level1 lfo2;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Add your new words in quotes: <o:p></o:p></span></li>
+</ol>
+
+<pre style='margin-left:.5in'><span style='font-size:9.5pt'>target_phrases = [&quot;hello studds&quot;, &quot;studds&quot;, &quot;testing&quot;, &quot;hello&quot;, &quot;motorcycle&quot;, &quot;pass&quot;]</span></pre>
+
+<ol start=5 type=1>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l0 level1 lfo2;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Save the file.<o:p></o:p></span></li>
+</ol>
+
+</div>
+
+<div style='border:solid #BBF7D0 1.0pt;border-left:solid #16A34A 4.5pt;
+mso-border-alt:solid #BBF7D0 .75pt;mso-border-left-alt:solid #16A34A 4.5pt;
+padding:12.0pt 12.0pt 12.0pt 12.0pt;margin-top:14.0pt;margin-bottom:14.0pt'>
+
+<h3 style='margin-top:0in;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:#F0FDF4'><span style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#15803D'>Recipe 3: How to Change the Application Window
+Title or Size<o:p></o:p></span></h3>
+
+<ol start=1 type=1>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l2 level1 lfo3;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Open </span><code><span style='font-size:9.5pt'>01_Source_Code\desktop_app.py</span></code><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'> in Notepad.<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l2 level1 lfo3;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Go to <strong><span style='font-family:"Segoe UI",sans-serif'>Lines
+     138â€“142</span></strong>: <o:p></o:p></span></li>
+</ol>
+
+<pre style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:9.5pt'>window = webview.create_window(<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:9.5pt'>Â Â Â Â title=&quot;Studds QC Testing Dashboard&quot;,<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:9.5pt'>Â Â Â Â url=&quot;http://127.0.0.1:8765/&quot;,<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:9.5pt'>Â Â Â Â width=1100,<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:9.5pt'>Â Â Â Â height=800,<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:9.5pt'>Â Â Â Â resizable=True,<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo3'><![if !supportLists]><span
+style='font-size:9.5pt;mso-fareast-font-family:Consolas;mso-bidi-font-family:
+Consolas'><span style='mso-list:Ignore'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:9.5pt'>Â Â Â Â js_api=desktop_api<o:p></o:p></span></pre><pre
+style='margin-left:.5in'><span style='font-size:9.5pt'>)</span></pre>
+
+<ol start=10 type=1>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l2 level1 lfo3;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Change </span><code><span style='font-size:9.5pt'>title=&quot;...&quot;</span></code><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'> to your preferred title.<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l2 level1 lfo3;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Change </span><code><span style='font-size:9.5pt'>width=1100</span></code><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'> and </span><code><span style='font-size:9.5pt'>height=800</span></code><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'> to your desired size (e.g., </span><code><span
+     style='font-size:9.5pt'>1280</span></code><span style='font-size:11.0pt;
+     font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>
+     x </span><code><span style='font-size:9.5pt'>900</span></code><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>).<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l2 level1 lfo3;tab-stops:list .5in;background:#F0FDF4'><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Save the file.<o:p></o:p></span></li>
+</ol>
+
+</div>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #E5E7EB 1.0pt;
+mso-border-bottom-alt:solid #E5E7EB .75pt;padding:0in 0in 3.0pt 0in'>
+
+<h2 style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>5.
+How to Rebuild &amp; Create a New </span><code><span style='font-size:9.5pt'>.exe</span></code><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>
+Installer<o:p></o:p></span></h2>
+
+</div>
+
+<ol start=1 type=1>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l3 level1 lfo4;tab-stops:list .5in'><span style='font-size:
+     11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>Open
+     the folder </span><code><span style='font-size:9.5pt'>01_Source_Code</span></code><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>.<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l3 level1 lfo4;tab-stops:list .5in'><span style='font-size:
+     11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>Click
+     in the folder address bar at the top, type </span><code><b><span
+     style='font-size:9.5pt'>cmd</span></b></code><span style='font-size:11.0pt;
+     font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>,
+     and press <strong><span style='font-family:"Segoe UI",sans-serif'>Enter</span></strong>.<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l3 level1 lfo4;tab-stops:list .5in'><span style='font-size:
+     11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>In
+     the black Command Prompt window, type: <o:p></o:p></span></li>
+</ol>
+
+<pre style='margin-left:.5in'><span style='font-size:9.5pt'>build.bat</span></pre>
+
+<ol start=4 type=1>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l3 level1 lfo4;tab-stops:list .5in'><span style='font-size:
+     11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>Press
+     <strong><span style='font-family:"Segoe UI",sans-serif'>Enter</span></strong>.
+     PyInstaller will compile all code and models into: <br>
+     </span><code><span style='font-size:9.5pt'>01_Source_Code\dist\StuddsQC.exe</span></code><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'><o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#24292E;mso-margin-top-alt:auto;margin-bottom:
+     4.0pt;mso-list:l3 level1 lfo4;tab-stops:list .5in'><span style='font-size:
+     11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>Open
+     </span><code><span style='font-size:9.5pt'>01_Source_Code\studds_installer.iss</span></code><span
+     style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'> in Inno Setup and click <strong><span
+     style='font-family:"Segoe UI",sans-serif'>Build â†’ Compile</span></strong>
+     to create the setup wizard installer!<o:p></o:p></span></li>
+</ol>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid #E5E7EB 1.0pt;
+mso-border-bottom-alt:solid #E5E7EB .75pt;padding:0in 0in 3.0pt 0in'>
+
+<h2 style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman"'>6.
+Troubleshooting &amp; Emergency Fixes<o:p></o:p></span></h2>
+
+</div>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid #D1D5DB .75pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="25%" style='width:25.0%;border:solid #D1D5DB 1.0pt;mso-border-alt:
+  solid #D1D5DB .75pt;background:#0B3D91;padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>Problem Observed<o:p></o:p></span></b></p>
+  </td>
+  <td width="35%" style='width:35.0%;border:solid #D1D5DB 1.0pt;border-left:
+  none;mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  background:#0B3D91;padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>Plain English Cause<o:p></o:p></span></b></p>
+  </td>
+  <td width="40%" style='width:40.0%;border:solid #D1D5DB 1.0pt;border-left:
+  none;mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  background:#0B3D91;padding:8.0pt 8.0pt 8.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><b><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:white'>Easy Fix<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>&quot;Backend
+  Did Not Start&quot; error box</span></strong><span style='font-size:10.0pt;
+  font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Port 8765 is blocked
+  by another program, or Python crashed.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>1. Open Task Manager
+  and close any duplicate </span><code><span style='font-size:9.5pt'>StuddsQC.exe</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'> processes.<br>
+  2. Open </span><code><span style='font-size:9.5pt'>startup_error.log</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'> in Notepad to see the exact crash line.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>Top
+  bar shows </span></strong><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI Emoji",sans-serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Segoe UI Emoji";color:#24292E'>&#128308;</span></strong><strong><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'> Database Offline</span></strong><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><code><span style='font-size:9.5pt'>db_config.json</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'> has the wrong password or MySQL is stopped.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>1. Ensure XAMPP or
+  MySQL server is turned ON (running).<br>
+  2. Open </span><code><span style='font-size:9.5pt'>db_config.json</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'> and check the IP and password.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>Microphone
+  test always says &quot;FAIL&quot;</span></strong><span style='font-size:10.0pt;
+  font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Operator spoke too
+  quietly or model folder was missing.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>1. Speak clearly
+  within 5 cm of the microphone.<br>
+  2. Verify the </span><code><span style='font-size:9.5pt'>vosk-model</span></code><span
+  style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:#24292E'> folder exists inside the installation
+  directory.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:solid #D1D5DB 1.0pt;border-top:none;mso-border-top-alt:
+  solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><strong><span style='font-size:10.0pt;font-family:
+  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#24292E'>Bluetooth
+  helmet won't appear in list</span></strong><span style='font-size:10.0pt;
+  font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:#24292E'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>Helmet is not in
+  pairing mode or Bluetooth is switched OFF.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid #D1D5DB 1.0pt;
+  border-right:solid #D1D5DB 1.0pt;mso-border-top-alt:solid #D1D5DB .75pt;
+  mso-border-left-alt:solid #D1D5DB .75pt;mso-border-alt:solid #D1D5DB .75pt;
+  padding:6.0pt 8.0pt 6.0pt 8.0pt'>
+  <p class=MsoNormal style='margin-top:8.0pt;margin-right:0in;margin-bottom:
+  16.0pt;margin-left:0in'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:#24292E'>1. Hold helmet power
+  button for 5 seconds until LED flashes red/blue.<br>
+  2. Ensure Windows Bluetooth is turned ON in Settings.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<div class=MsoNormal align=center style='text-align:center;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-size:11.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#24292E'>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<p align=center style='text-align:center;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:#6B7280'>Studds
+Accessories Ltd. Â© 2026 â€” Quality Control &amp; Software Engineering
+Documentation<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

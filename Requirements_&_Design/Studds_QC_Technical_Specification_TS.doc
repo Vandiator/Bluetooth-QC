@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Technical Specification Document (TS) - Studds QC</title>
+<style>
+@page {
+    size: 8.5in 11.0in;
+    margin: 1.0in 1.0in 1.0in 1.0in;
+}
+body {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #24292e;
+    background-color: #ffffff;
+}
+h1 {
+    font-size: 22pt;
+    font-weight: bold;
+    color: #0b3d91;
+    border-bottom: 2px solid #0b3d91;
+    padding-bottom: 6px;
+    margin-top: 24pt;
+    margin-bottom: 12pt;
+}
+h2 {
+    font-size: 16pt;
+    font-weight: bold;
+    color: #1a56db;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 4px;
+    margin-top: 18pt;
+    margin-bottom: 8pt;
+    page-break-after: avoid;
+}
+h3 {
+    font-size: 13pt;
+    font-weight: bold;
+    color: #2b3a4a;
+    margin-top: 14pt;
+    margin-bottom: 6pt;
+    page-break-after: avoid;
+}
+h4 {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #374151;
+    margin-top: 10pt;
+    margin-bottom: 4pt;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 8pt;
+}
+.header-box {
+    background-color: #f0f5ff;
+    border: 1px solid #c3dafe;
+    border-left: 6px solid #1a56db;
+    padding: 12pt;
+    margin-bottom: 18pt;
+    border-radius: 4px;
+}
+.alert-box {
+    background-color: #fefce8;
+    border: 1px solid #fef08a;
+    border-left: 6px solid #eab308;
+    padding: 10pt;
+    margin: 12pt 0;
+    border-radius: 4px;
+}
+.recipe-box {
+    background-color: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-left: 6px solid #16a34a;
+    padding: 12pt;
+    margin: 14pt 0;
+    border-radius: 4px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 8pt;
+    margin-bottom: 16pt;
+    font-size: 10pt;
+}
+table, th, td {
+    border: 1px solid #d1d5db;
+}
+th {
+    background-color: #0b3d91;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8pt;
+    text-align: left;
+}
+td {
+    padding: 6pt 8pt;
+    vertical-align: top;
+}
+tr:nth-child(even) td {
+    background-color: #f9fafb;
+}
+code {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9.5pt;
+    background-color: #f3f4f6;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #b91c1c;
+}
+pre {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9pt;
+    background-color: #1e293b;
+    color: #f8fafc;
+    padding: 10pt;
+    border-radius: 4px;
+    overflow-x: auto;
+    line-height: 1.4;
+    margin-top: 6pt;
+    margin-bottom: 12pt;
+}
+pre code {
+    background-color: transparent;
+    color: #f8fafc;
+    padding: 0;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 8pt;
+    padding-left: 20pt;
+}
+li {
+    margin-bottom: 4pt;
+}
+.badge-pass {
+    background-color: #dcfce7;
+    color: #15803d;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid #86efac;
+}
+.badge-fail {
+    background-color: #fee2e2;
+    color: #b91c1c;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid #fca5a5;
+}
+</style>
+</head>
+<body>
+
+<div class="header-box">
+    <h1 style="margin-top: 0; border-bottom: none; padding-bottom: 0;">Studds QC Bluetooth Device Inspection Application</h1>
+    <h3 style="margin-top: 4pt; color: #1e40af;">Technical Specification Document (TS) — Detailed Line-by-Line Guide</h3>
+    <p style="margin-bottom: 0;"><strong>Document ID:</strong> STUDDS-QC-TS-DETAILED-V1.0 &nbsp;|&nbsp; <strong>Date:</strong> 2026-08-26 &nbsp;|&nbsp; <strong>Target Platform:</strong> Windows 10 / 11 (64-bit)</p>
+    <p style="margin-bottom: 0;"><strong>Author:</strong> Studds Software Engineering & QA Architecture Team &nbsp;|&nbsp; <strong>Status:</strong> Approved & Production Baseline</p>
+</div>
+
+<div class="alert-box">
+    <h4 style="margin-top: 0; color: #854d0e;">📖 Note for Non-Technical Stakeholders & Reviewers:</h4>
+    <p style="margin-bottom: 0;">This document is written in <strong>simple, plain English</strong>. You do not need a computer science degree or programming experience to understand how this system works. Every file, function, and configuration block is explained with real-world analogies, plain English breakdowns, and exact <strong>"How to Change This"</strong> step-by-step recipes so anyone can modify application settings (like database passwords, test voice phrases, audio tracks, or window sizes) safely.</p>
+</div>
+
+<h2>1. System Architecture in Simple Terms</h2>
+
+<p>Think of the application like a restaurant with 3 main parts:</p>
+
+<table style="width: 100%;">
+    <tr>
+        <th style="width: 30%;">Component</th>
+        <th style="width: 30%;">Technical Name</th>
+        <th>Plain English Purpose & What It Does</th>
+    </tr>
+    <tr>
+        <td><strong>1. The Frontend UI</strong><br><em>(The Dining Room)</em></td>
+        <td><code>studds_qc_inspection.html</code><br>(PyWebView Edge Chromium)</td>
+        <td>What the inspector sees on screen (buttons, progress bars, volume meters, pass/fail badges). Runs in a smooth native desktop window.</td>
+    </tr>
+    <tr>
+        <td><strong>2. The Backend Engine</strong><br><em>(The Kitchen & Chef)</em></td>
+        <td><code>qc_bluetooth_api.py</code><br>(FastAPI on Port 8765)</td>
+        <td>Takes commands from the screen, controls the computer's Bluetooth radio, plays speaker sound files, listens to the microphone, and checks physical buttons.</td>
+    </tr>
+    <tr>
+        <td><strong>3. The Central Database</strong><br><em>(The Filing Cabinet)</em></td>
+        <td>MySQL / MariaDB Server<br>(Table: <code>inspection_logs</code>)</td>
+        <td>Stores records of every single helmet tested: Operator ID, Serial Number, MAC Address, Date, Time, and PASS/FAIL verdict.</td>
+    </tr>
+</table>
+
+<h2>2. Project File Map & What Each File Does</h2>
+
+<table>
+    <tr>
+        <th style="width: 25%;">File Name</th>
+        <th style="width: 35%;">Plain English Purpose</th>
+        <th style="width: 40%;">If you want to change...</th>
+    </tr>
+    <tr>
+        <td><code>desktop_app.py</code></td>
+        <td><strong>The Ignition Key:</strong> Starts the backend server and opens the Windows desktop window.</td>
+        <td>Window dimensions (width/height), title, or startup health checks.</td>
+    </tr>
+    <tr>
+        <td><code>db_config.json</code></td>
+        <td><strong>The Database Notebook:</strong> Holds the MySQL connection settings.</td>
+        <td>Database IP address, username, password, or database name.</td>
+    </tr>
+    <tr>
+        <td><code>speaker_test.py</code></td>
+        <td><strong>The Audio Player:</strong> Plays left and right audio cues into the helmet speakers.</td>
+        <td>Playback speed, audio file path, or sound controls.</td>
+    </tr>
+    <tr>
+        <td><code>mic_test.py</code></td>
+        <td><strong>The Digital Ear:</strong> Listens to what the operator says into the helmet microphone completely offline.</td>
+        <td>Accepted voice test phrases (e.g., <em>"hello studds"</em>).</td>
+    </tr>
+    <tr>
+        <td><code>button_detector.py</code></td>
+        <td><strong>The Button Watcher:</strong> Detects when Volume Up, Volume Down, or Play buttons are pressed.</td>
+        <td>Volume detection sensitivity or key codes.</td>
+    </tr>
+    <tr>
+        <td><code>Bluetooth_testing.py</code></td>
+        <td><strong>The Radio Controller:</strong> Searches for nearby Bluetooth helmets and pairs with them.</td>
+        <td>Scan timeout or Bluetooth discovery filters.</td>
+    </tr>
+    <tr>
+        <td><code>qc_bluetooth_api.py</code></td>
+        <td><strong>The Master Orchestrator:</strong> Connects the screen to the hardware and MySQL database.</td>
+        <td>Test logic, API endpoints, or database columns.</td>
+    </tr>
+    <tr>
+        <td><code>studds_qc_inspection.html</code></td>
+        <td><strong>The Visual Screen:</strong> Contains all HTML, CSS styling, and JavaScript logic.</td>
+        <td>Colors, layout, text labels, or screen logo.</td>
+    </tr>
+    <tr>
+        <td><code>StuddsQC.spec</code></td>
+        <td><strong>The Packaging Recipe:</strong> Tells PyInstaller how to bundle everything into a single <code>.exe</code> file.</td>
+        <td>Files bundled into the compiled application.</td>
+    </tr>
+    <tr>
+        <td><code>build.bat</code></td>
+        <td><strong>The 1-Click Build Script:</strong> Double-click to compile all code into an executable.</td>
+        <td>Nothing needed; just double-click to compile!</td>
+    </tr>
+    <tr>
+        <td><code>studds_installer.iss</code></td>
+        <td><strong>The Setup Installer Script:</strong> Compiles the user-friendly setup wizard.</td>
+        <td>Installer icon, destination folder, or version number.</td>
+    </tr>
+</table>
+
+<h2>3. Line-by-Line Code Breakdown & Customization Guide</h2>
+
+<h3>3.1 <code>desktop_app.py</code> (The Application Launcher)</h3>
+<p>This is the first file that runs when the user double-clicks the application.</p>
+
+<pre><code># Lines 1-8: Importing required tools
+import os             # Works with computer files and folders
+import sys            # Accesses Python runtime settings and command line
+import threading      # Allows running multiple tasks at the exact same time
+import time           # Handles delays, timestamps, and timeouts
+import traceback      # Captures full error messages if something crashes
+import urllib.request # Performs internal health check calls to the local server
+import webview        # Creates the native Microsoft Edge desktop window
+import uvicorn        # The fast web server engine that runs our backend API</code></pre>
+
+<p><strong>Explanation:</strong> These standard libraries give Python the power to interact with the Windows OS, run parallel tasks, and draw a window.</p>
+
+<pre><code># Line 14: Granting automatic microphone permissions
+os.environ["WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS"] = "--use-fake-ui-for-media-stream --enable-media-stream"</code></pre>
+<p><strong>Explanation:</strong> When a browser accesses a microphone, it usually pops up an annoying <em>"Do you want to allow this app to use your microphone?"</em> prompt. This line tells the Edge Chromium engine: <em>"Always auto-allow the helmet microphone without asking the operator every time."</em></p>
+
+<pre><code># Lines 69-76: Starting the Backend Web Engine
+def start_backend_server():
+    uvicorn.run(app, host="127.0.0.1", port=8765, log_level="error")</code></pre>
+<p><strong>Explanation:</strong> Starts the local API server on <code>127.0.0.1</code> (your local PC) on port <code>8765</code>.</p>
+
+<pre><code># Lines 137-144: Opening the Desktop Window
+window = webview.create_window(
+    title="Studds QC Testing Dashboard",
+    url="http://127.0.0.1:8765/",
+    width=1100,
+    height=800,
+    resizable=True,
+    js_api=desktop_api
+)
+webview.start()</code></pre>
+<p><strong>Explanation:</strong> Opens an 1100x800 pixel desktop window titled <em>"Studds QC Testing Dashboard"</em> showing our inspection screen.</p>
+
+<hr>
+
+<h3>3.2 <code>db_config.json</code> (Database Settings File)</h3>
+<p>This file sits directly beside the application executable. You can open and edit it in <strong>Notepad</strong> without writing any code.</p>
+
+<pre><code>{
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "",
+    "database": "studds_qc",
+    "connection_timeout": 8
+}</code></pre>
+
+<table>
+    <tr>
+        <th>Key</th>
+        <th>Default Value</th>
+        <th>Plain English Meaning</th>
+    </tr>
+    <tr>
+        <td><code>"host"</code></td>
+        <td><code>"localhost"</code></td>
+        <td>The IP address of the MySQL server. Use <code>"localhost"</code> if on the same PC, or an IP like <code>"192.168.1.100"</code> for a central factory server.</td>
+    </tr>
+    <tr>
+        <td><code>"port"</code></td>
+        <td><code>3306</code></td>
+        <td>The standard MySQL networking port.</td>
+    </tr>
+    <tr>
+        <td><code>"user"</code></td>
+        <td><code>"root"</code></td>
+        <td>The database username.</td>
+    </tr>
+    <tr>
+        <td><code>"password"</code></td>
+        <td><code>""</code></td>
+        <td>The database login password.</td>
+    </tr>
+    <tr>
+        <td><code>"database"</code></td>
+        <td><code>"studds_qc"</code></td>
+        <td>The database table catalog name.</td>
+    </tr>
+    <tr>
+        <td><code>"connection_timeout"</code></td>
+        <td><code>8</code></td>
+        <td>Seconds to wait before warning if the database server is offline.</td>
+    </tr>
+</table>
+
+<hr>
+
+<h3>3.3 <code>speaker_test.py</code> (Stereo Speaker Player)</h3>
+<p>Uses Windows native Multimedia commands (<code>winmm.dll</code>) to play stereo sound cues without opening any external media player.</p>
+
+<pre><code># Lines 22-31: Short-Path Converter
+def get_short_path_name(long_name: str) -> str:
+    ...
+    res = kernel32.GetShortPathNameW(long_name, buf, 260)</code></pre>
+<p><strong>Explanation:</strong> Windows sometimes fails to play audio if folder names have spaces (like <code>C:\Program Files\Studds</code>). This converts paths to 8.3 short format (<code>C:\PROGRA~1\Studds</code>) so playback never fails.</p>
+
+<pre><code># Lines 123-135: Playing the Stereo Audio
+def start_speaker_test(mp3_path: str) -> Dict[str, Any]:
+    ...
+    _mci_send(f'open "{short_path}" type mpegvideo alias speaker_mp3')
+    _mci_send("play speaker_mp3")</code></pre>
+<p><strong>Explanation:</strong> Opens the MP3 audio file and starts playback. The audio plays sound strictly in the <strong>Left Channel</strong> first, pauses, and then plays strictly in the <strong>Right Channel</strong>.</p>
+
+<hr>
+
+<h3>3.4 <code>mic_test.py</code> (Offline Speech Recognition Engine)</h3>
+<p>Uses the <strong>Vosk Offline Neural Speech Model</strong> to transcribe what the operator says into the microphone without needing any internet connection.</p>
+
+<pre><code># Lines 94-96: Loading the Neural Speech Model
+VOSK_MODEL_PATH = os.path.join(get_bundle_dir(), "vosk-model")
+speech_model = vosk.Model(VOSK_MODEL_PATH)</code></pre>
+<p><strong>Explanation:</strong> Loads the offline acoustic speech dictionary from the <code>vosk-model</code> folder into memory.</p>
+
+<pre><code># Lines 146-153: Checking for Target Voice Words
+target_phrases = ["hello studds", "studds", "testing", "hello"]
+passed = any(phrase in transcript for phrase in target_phrases)
+
+return {
+    "status": "PASS" if passed else "FAIL",
+    "transcript": transcript
+}</code></pre>
+<p><strong>Explanation:</strong> When the operator speaks into the helmet mic, Vosk transcribes the audio. If the operator says <em>"hello studds"</em>, <em>"studds"</em>, <em>"testing"</em>, or <em>"hello"</em>, the test automatically <span class="badge-pass">PASSES</span>.</p>
+
+<hr>
+
+<h3>3.5 <code>button_detector.py</code> (Physical Button Sensor)</h3>
+<p>Listens for physical button presses on the helmet headset: Volume Up, Volume Down, and Play/Pause.</p>
+
+<pre><code># Lines 64-66: Key Code Definitions
+VK_VOLUME_DOWN = 0xAE        # Hardware key code for Volume Down
+VK_VOLUME_UP = 0xAF          # Hardware key code for Volume Up
+VK_MEDIA_PLAY_PAUSE = 0xB3   # Hardware key code for Play/Pause</code></pre>
+
+<pre><code># Lines 203-214: Volume Change Detection
+current_volume = volume_ctrl.GetMasterVolumeLevelScalar()
+if diff > 0.005:
+    button_state["volume_up"] = True
+    print("Volume Up detected")
+elif diff < -0.005:
+    button_state["volume_down"] = True
+    print("Volume Down detected")</code></pre>
+<p><strong>Explanation:</strong> Measures the volume level in real time. If the operator presses Volume (+), the volume level rises and turns on the green <strong>Volume Up</strong> badge on screen. If they press Volume (-), it turns on the green <strong>Volume Down</strong> badge.</p>
+
+<hr>
+
+<h3>3.6 <code>qc_bluetooth_api.py</code> (Backend API & Database Router)</h3>
+<p>Provides all web endpoints that connect the user interface to the hardware and database.</p>
+
+<table>
+    <tr>
+        <th>Endpoint</th>
+        <th>Method</th>
+        <th>What It Does (Plain English)</th>
+    </tr>
+    <tr>
+        <td><code>/health</code></td>
+        <td><code>GET</code></td>
+        <td>Quickly replies <code>{"status": "healthy"}</code> so the launcher knows the backend is ready.</td>
+    </tr>
+    <tr>
+        <td><code>/scan</code></td>
+        <td><code>GET</code></td>
+        <td>Starts Bluetooth scanning and returns a list of nearby helmets with signal strength (RSSI).</td>
+    </tr>
+    <tr>
+        <td><code>/test/{address}</code></td>
+        <td><code>POST</code></td>
+        <td>Automatically pairs with the selected helmet and checks audio/mic profiles.</td>
+    </tr>
+    <tr>
+        <td><code>/analyze_mic</code></td>
+        <td><code>POST</code></td>
+        <td>Receives recorded audio from the mic, runs speech recognition, and returns the transcript.</td>
+    </tr>
+    <tr>
+        <td><code>/speaker_test/start</code></td>
+        <td><code>POST</code></td>
+        <td>Starts playing the Left/Right stereo audio file into the helmet.</td>
+    </tr>
+    <tr>
+        <td><code>/button_test/status</code></td>
+        <td><code>GET</code></td>
+        <td>Returns whether Volume Up, Down, or Play buttons were pressed (true/false).</td>
+    </tr>
+    <tr>
+        <td><code>/check_duplicate/{mac}</code></td>
+        <td><code>GET</code></td>
+        <td>Queries MySQL to check if this helmet was already tested today.</td>
+    </tr>
+    <tr>
+        <td><code>/save_report</code></td>
+        <td><code>POST</code></td>
+        <td>Saves the complete inspection record (Operator ID, Serial Number, MAC, PASS/FAIL) to MySQL.</td>
+    </tr>
+    <tr>
+        <td><code>/reports</code></td>
+        <td><code>GET</code></td>
+        <td>Fetches past inspection logs for the table at the bottom of the screen.</td>
+    </tr>
+</table>
+
+<h2>4. Step-by-Step Recipes: How to Change Common Settings</h2>
+
+<div class="recipe-box">
+    <h3 style="margin-top: 0; color: #15803d;">Recipe 1: How to Change the Database IP / Password</h3>
+    <ol>
+        <li>Open the folder where the app is installed.</li>
+        <li>Locate the file <code>db_config.json</code>.</li>
+        <li>Right-click it and select <strong>Open with &rarr; Notepad</strong>.</li>
+        <li>Change the <code>"host"</code> and <code>"password"</code> values:
+<pre><code>{
+    "host": "192.168.1.50",
+    "port": 3306,
+    "user": "qc_user",
+    "password": "NewSecurePassword2026",
+    "database": "studds_qc",
+    "connection_timeout": 8
+}</code></pre>
+        </li>
+        <li>Click <strong>File &rarr; Save</strong> and restart the application. That's it!</li>
+    </ol>
+</div>
+
+<div class="recipe-box">
+    <h3 style="margin-top: 0; color: #15803d;">Recipe 2: How to Change the Voice Words the Helmet Listens For</h3>
+    <ol>
+        <li>Open <code>01_Source_Code\mic_test.py</code> in Notepad or VS Code.</li>
+        <li>Go to <strong>Line 147</strong>.</li>
+        <li>Find this line:
+<pre><code>target_phrases = ["hello studds", "studds", "testing", "hello"]</code></pre></li>
+        <li>Add your new words in quotes:
+<pre><code>target_phrases = ["hello studds", "studds", "testing", "hello", "motorcycle", "pass"]</code></pre></li>
+        <li>Save the file.</li>
+    </ol>
+</div>
+
+<div class="recipe-box">
+    <h3 style="margin-top: 0; color: #15803d;">Recipe 3: How to Change the Application Window Title or Size</h3>
+    <ol>
+        <li>Open <code>01_Source_Code\desktop_app.py</code> in Notepad.</li>
+        <li>Go to <strong>Lines 138–142</strong>:
+<pre><code>window = webview.create_window(
+    title="Studds QC Testing Dashboard",
+    url="http://127.0.0.1:8765/",
+    width=1100,
+    height=800,
+    resizable=True,
+    js_api=desktop_api
+)</code></pre></li>
+        <li>Change <code>title="..."</code> to your preferred title.</li>
+        <li>Change <code>width=1100</code> and <code>height=800</code> to your desired size (e.g., <code>1280</code> x <code>900</code>).</li>
+        <li>Save the file.</li>
+    </ol>
+</div>
+
+<h2>5. How to Rebuild & Create a New <code>.exe</code> Installer</h2>
+
+<p>Whenever you modify any Python or HTML code, you can easily generate a fresh standalone <code>.exe</code> and setup installer using simple double-clicks:</p>
+
+<div class="recipe-box">
+    <h3 style="margin-top: 0; color: #15803d;">Method 1: The 1-Click Direct Double-Click (Easiest Method)</h3>
+    <ol>
+        <li><strong>Step 1 — Create the <code>.exe</code>:</strong>
+            <ul>
+                <li>Open the <code>01_Source_Code</code> folder in File Explorer.</li>
+                <li><strong>Directly double-click on <code>build.bat</code></strong>.</li>
+                <li>A black window will open and automatically compile everything. Wait 1–2 minutes until it completes and creates <code>01_Source_Code\dist\StuddsQC.exe</code>.</li>
+            </ul>
+        </li>
+        <li><strong>Step 2 — Create the Setup Installer:</strong>
+            <ul>
+                <li>In the same <code>01_Source_Code</code> folder, <strong>directly double-click on <code>studds_installer.iss</code></strong>.</li>
+                <li>It will open in Inno Setup Compiler. Click the green <strong>Run</strong> / <strong>Compile</strong> button at the top (or press <code>Ctrl + F9</code>).</li>
+                <li>Inno Setup will output <code>01_Source_Code\installer_output\Studds_QC_Setup_v1.0.exe</code>. Double-click this setup file to install on any laptop!</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+
+<div class="header-box" style="margin-top: 10pt;">
+    <h4 style="margin-top: 0; color: #1e40af;">Method 2: Via Command Prompt (Alternative)</h4>
+    <ol style="margin-bottom: 0;">
+        <li>Open the folder <code>01_Source_Code</code>.</li>
+        <li>Click in the top address bar, type <strong><code>cmd</code></strong>, and press <strong>Enter</strong>.</li>
+        <li>Type <code>build.bat</code> and press <strong>Enter</strong> to compile.</li>
+    </ol>
+</div>
+
+<h2>6. Troubleshooting & Emergency Fixes</h2>
+
+<table>
+    <tr>
+        <th style="width: 25%;">Problem Observed</th>
+        <th style="width: 35%;">Plain English Cause</th>
+        <th style="width: 40%;">Easy Fix</th>
+    </tr>
+    <tr>
+        <td><strong>"Backend Did Not Start" error box</strong></td>
+        <td>Port 8765 is blocked by another program, or Python crashed.</td>
+        <td>1. Open Task Manager and close any duplicate <code>StuddsQC.exe</code> processes.<br>2. Open <code>startup_error.log</code> in Notepad to see the exact crash line.</td>
+    </tr>
+    <tr>
+        <td><strong>Top bar shows 🔴 Database Offline</strong></td>
+        <td><code>db_config.json</code> has the wrong password or MySQL is stopped.</td>
+        <td>1. Ensure XAMPP or MySQL server is turned ON (running).<br>2. Open <code>db_config.json</code> and check the IP and password.</td>
+    </tr>
+    <tr>
+        <td><strong>Microphone test always says "FAIL"</strong></td>
+        <td>Operator spoke too quietly or model folder was missing.</td>
+        <td>1. Speak clearly within 5 cm of the microphone.<br>2. Verify the <code>vosk-model</code> folder exists inside the installation directory.</td>
+    </tr>
+    <tr>
+        <td><strong>Bluetooth helmet won't appear in list</strong></td>
+        <td>Helmet is not in pairing mode or Bluetooth is switched OFF.</td>
+        <td>1. Hold helmet power button for 5 seconds until LED flashes red/blue.<br>2. Ensure Windows Bluetooth is turned ON in Settings.</td>
+    </tr>
+</table>
+
+<hr>
+<p style="text-align: center; color: #6b7280; font-size: 9pt;">Studds Accessories Ltd. &copy; 2026 — Quality Control & Software Engineering Documentation</p>
+
+</body>
+</html>

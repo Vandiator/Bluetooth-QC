@@ -1,0 +1,231 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>Functional Specification Document (FS) - Studds QC</title>
+<!--[if gte mso 9]>
+<xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>100</w:Zoom>
+  <w:DoNotOptimizeForBrowser/>
+ </w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+@page {
+    size: 8.5in 11.0in;
+    margin: 1.0in 1.0in 1.0in 1.0in;
+    mso-header-margin: 0.5in;
+    mso-footer-margin: 0.5in;
+}
+body {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #24292e;
+    background-color: #ffffff;
+}
+h1 {
+    font-size: 22pt;
+    font-weight: bold;
+    color: #0b3d91;
+    border-bottom: 2px solid #0b3d91;
+    padding-bottom: 6px;
+    margin-top: 24pt;
+    margin-bottom: 12pt;
+}
+h2 {
+    font-size: 16pt;
+    font-weight: bold;
+    color: #1a56db;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 4px;
+    margin-top: 18pt;
+    margin-bottom: 8pt;
+    page-break-after: avoid;
+}
+h3 {
+    font-size: 13pt;
+    font-weight: bold;
+    color: #2b3a4a;
+    margin-top: 14pt;
+    margin-bottom: 6pt;
+    page-break-after: avoid;
+}
+h4 {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #374151;
+    margin-top: 10pt;
+    margin-bottom: 4pt;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 8pt;
+}
+.header-box {
+    background-color: #f0f5ff;
+    border: 1px solid #c3dafe;
+    border-left: 6px solid #1a56db;
+    padding: 12pt;
+    margin-bottom: 18pt;
+    border-radius: 4px;
+}
+.alert-box {
+    background-color: #fefce8;
+    border: 1px solid #fef08a;
+    border-left: 6px solid #eab308;
+    padding: 10pt;
+    margin: 12pt 0;
+    border-radius: 4px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 8pt;
+    margin-bottom: 16pt;
+    font-size: 10pt;
+}
+table, th, td {
+    border: 1px solid #d1d5db;
+}
+th {
+    background-color: #0b3d91;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8pt;
+    text-align: left;
+}
+td {
+    padding: 6pt 8pt;
+    vertical-align: top;
+}
+tr:nth-child(even) td {
+    background-color: #f9fafb;
+}
+code {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9.5pt;
+    background-color: #f3f4f6;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #b91c1c;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 8pt;
+    padding-left: 20pt;
+}
+li {
+    margin-bottom: 4pt;
+}
+.badge-pass {
+    background-color: #dcfce7;
+    color: #15803d;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid #86efac;
+}
+.badge-fail {
+    background-color: #fee2e2;
+    color: #b91c1c;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid #fca5a5;
+}
+</style>
+</head>
+<body>
+
+<div class="header-box">
+    <h1 style="margin-top: 0; border-bottom: none; padding-bottom: 0;">Studds QC Bluetooth Device Inspection Application</h1>
+    <h3 style="margin-top: 4pt; color: #1e40af;">Functional Specification Document (FS)</h3>
+    <p style="margin-bottom: 0;"><strong>Document ID:</strong> STUDDS-QC-FS-V1.0 &nbsp;|&nbsp; <strong>Date:</strong> 2026-08-26 &nbsp;|&nbsp; <strong>Target Platform:</strong> Windows 10 / 11 (64-bit)</p>
+    <p style="margin-bottom: 0;"><strong>Author:</strong> Studds QA & Software Engineering Team &nbsp;|&nbsp; <strong>Status:</strong> Approved Baseline</p>
+</div>
+
+<h2>1. Executive Summary & Purpose</h2>
+<p><strong>Studds Accessories Ltd.</strong> manufactures smart helmets and Bluetooth accessories. This application automates and standardizes the quality inspection process before helmets leave the factory, ensuring that Bluetooth pairing, speakers, microphone, and buttons function 100% properly.</p>
+
+<h2>2. User Roles</h2>
+<table>
+    <tr>
+        <th style="width: 25%;">Role</th>
+        <th style="width: 25%;">Persona</th>
+        <th>Main Activities</th>
+    </tr>
+    <tr>
+        <td><strong>Line Operator</strong></td>
+        <td>Factory Floor Inspector</td>
+        <td>Scans serial numbers, pairs helmet, evaluates speaker sound, speaks test words, presses buttons, submits pass/fail.</td>
+    </tr>
+    <tr>
+        <td><strong>QC Supervisor</strong></td>
+        <td>Quality Lead</td>
+        <td>Monitors shift yield pass %, reviews defect logs, filters history, and exports reports to CSV.</td>
+    </tr>
+    <tr>
+        <td><strong>IT / Plant Admin</strong></td>
+        <td>System Support</td>
+        <td>Configures database connection parameters and installs workstation binaries.</td>
+    </tr>
+</table>
+
+<h2>3. End-to-End QC Workflow</h2>
+<ol>
+    <li><strong>Operator Login:</strong> Inspector enters their Operator ID.</li>
+    <li><strong>Barcode Scanning:</strong> Helmet serial barcode is scanned using a handheld USB scanner.</li>
+    <li><strong>Duplicate Check:</strong> System queries the database to prevent duplicate testing.</li>
+    <li><strong>Bluetooth Scanning & Pairing:</strong> System discovers nearby helmet and pairs automatically.</li>
+    <li><strong>Diagnostic Latency:</strong> Measures auto-reconnection duration in seconds.</li>
+    <li><strong>Speaker Test:</strong> Plays Left channel and Right channel audio cues.</li>
+    <li><strong>Microphone Test:</strong> Operator speaks <em>"Testing one two three"</em>; Vosk transcribes speech offline.</li>
+    <li><strong>Button Test:</strong> Operator presses Volume (+), Volume (-), and Play buttons; lights turn green.</li>
+    <li><strong>Report Saving:</strong> Result is logged to central MySQL and shift yield counters update.</li>
+</ol>
+
+<h2>4. Functional Modules & Acceptance Criteria</h2>
+
+<table>
+    <tr>
+        <th style="width: 30%;">Test Module</th>
+        <th style="width: 40%;">Pass Condition</th>
+        <th style="width: 30%;">Fail Condition</th>
+    </tr>
+    <tr>
+        <td><strong>Bluetooth Pairing & Reconnect</strong></td>
+        <td>Device connects within 5 seconds; A2DP & HFP profiles active; reconnect latency &le; 3.0s.</td>
+        <td>Device not found, pairing timeout, or reconnect &gt; 5.0s.</td>
+    </tr>
+    <tr>
+        <td><strong>Stereo Speaker Test</strong></td>
+        <td>Clear, distinct audio heard in Left ear, then Right ear with zero distortion or channel bleed.</td>
+        <td>Missing sound in one ear, audio distortion, or channel bleed.</td>
+    </tr>
+    <tr>
+        <td><strong>Microphone STT Test</strong></td>
+        <td>Spoken phrase matches target keywords (<em>"hello studds"</em>, <em>"testing"</em>, etc.) with &ge; 70% confidence.</td>
+        <td>No speech detected, muted audio, or unintelligible noise.</td>
+    </tr>
+    <tr>
+        <td><strong>Physical Button Test</strong></td>
+        <td>Volume Up (+) and Volume Down (-) presses are detected by audio endpoint sensor.</td>
+        <td>Buttons non-responsive or volume level unchanged.</td>
+    </tr>
+</table>
+
+<h2>5. Business Rules & Quality Safeguards</h2>
+<ul>
+    <li><strong>Mandatory Operator ID:</strong> Testing cannot begin without an active Operator ID.</li>
+    <li><strong>Duplicate Prevention:</strong> If a helmet serial was already passed today, a duplicate warning badge is displayed.</li>
+    <li><strong>All-Pass Requirement:</strong> An overall status of <span class="badge-pass">PASS</span> is only given if Speaker, Mic, and Button tests are all <span class="badge-pass">PASSED</span>.</li>
+    <li><strong>Clean Unpairing:</strong> The app unpairs the helmet after testing so the computer is ready for the next unit.</li>
+</ul>
+
+<hr>
+<p style="text-align: center; color: #6b7280; font-size: 9pt;">Studds Accessories Ltd. &copy; 2026 — Quality Control & Software Engineering Documentation</p>
+
+</body>
+</html>
